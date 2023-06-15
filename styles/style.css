@@ -1,0 +1,53 @@
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: "Open Sans", sans-serif; 
+    } 
+    
+    /* The above rule defines a global base font and font size for the whole page.
+     Since <html> is the parent element of the whole page, all elements inside it inherit
+     the same font-size and font-family. */
+    
+     /* Now let's set font sizes for elements that will have text inside the HTML body
+      (h1, <li>, and <p>). We'll also center the heading. Finally, let's expand the 
+      second ruleset (below) with settings for line height and letter spacing to make body
+      content more readable.  */
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  p,
+  li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  /*Changing the page color */
+  html {
+    background-color: #00539f;
+  }
+  
+   /* Styling the body */
+   body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+/* Positioning and styling the main page title */
+h1 {
+  margin: 0; /* override the browser's default h1 styling */
+  padding: 20px 0; /* set top and bottom margins of the heading to 20px */
+  color: #00539f; /* set the heading text to the same color as the HTML background color */
+  text-shadow: 3px 3px 1px black; /* applies a shadow to the text content of the element. */
+}
+
+/* Centering the image */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
